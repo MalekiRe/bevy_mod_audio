@@ -6,9 +6,9 @@ use crate::audio_output::AudioOutputPlugin;
 use crate::microphone::MicrophonePlugin;
 use bevy::app::PluginGroupBuilder;
 
-pub struct MalekAudioPlugins;
+pub struct ModAudioPlugins;
 
-impl bevy::prelude::PluginGroup for MalekAudioPlugins {
+impl bevy::prelude::PluginGroup for ModAudioPlugins {
     fn build(self) -> PluginGroupBuilder {
         PluginGroupBuilder::start::<Self>()
             .add(spatial_audio::SpatialAudioPlugin)

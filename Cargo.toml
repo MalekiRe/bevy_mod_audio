@@ -1,13 +1,13 @@
 [package]
 name = "bevy_mod_audio"
-version = "0.1.0-rc1"
+version = "0.2.0"
 edition = "2024"
 description = "streaming spatial audio and microphone support for bevy"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/MalekiRe/bevy_mod_audio"
 
 [dependencies]
-bevy = "0.15.3"
+bevy = "0.16.0"
 rodio = "0.20.1"
 cpal = { version = "0.15.3" }
 flume = "0.11.1"
